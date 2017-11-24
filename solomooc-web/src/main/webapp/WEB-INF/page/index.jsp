@@ -1,4 +1,4 @@
-﻿<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ page trimDirectiveWhitespaces="true" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
@@ -828,6 +828,7 @@
 
 
     <!-- FOOTER -->
+
     <%@include file="foot.jsp"%>
     <script src="${slm}/staticfile/js/jquery-1.12.1.min.js"></script>
     <script src="${slm}/staticfile/bootstrap/3.3.6/js/bootstrap.min.js" ></script>
@@ -835,5 +836,6 @@
     <script src="${slm}/staticfile/js/jquery.countTo.js"></script>
     <script src="${slm}/staticfile/js/jquery.viewportchecker.min.js"></script>
     <script src="${slm}/staticfile/js/global.js"></script>
+
 </body>
 </html>
