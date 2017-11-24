@@ -1,22 +1,22 @@
-﻿<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ page trimDirectiveWhitespaces="true" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <html>
 <head>
     <!-- FONTS -->
-    <link href="font-awesome/4.6.1/css/font-awesome.min.css"  rel="stylesheet">
-    <link href="css/stroke-gap.min.css" rel="stylesheet">
+    <link href="${slm}/staticfile/font-awesome/4.6.1/css/font-awesome.min.css"  rel="stylesheet">
+    <link href="${slm}/staticfile/css/stroke-gap.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,400italic' rel='stylesheet' type='text/css'>
 
     <!-- CSS -->
-    <link href="bootstrap/3.3.6/css/bootstrap.min.css"  rel="stylesheet">
-    <link href="css/idangerous.swiper.css" rel="stylesheet" type="text/css" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="${slm}/staticfile/bootstrap/3.3.6/css/bootstrap.min.css"  rel="stylesheet">
+    <link href="${slm}/staticfile/css/idangerous.swiper.css" rel="stylesheet" type="text/css" />
+    <link href="${slm}/staticfile/css/style.css" rel="stylesheet" type="text/css" />
 
-    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="shortcut icon" href="${slm}/staticfile/img/favicon.ico" />
   	<title>SoloMooc</title>
 </head>
 <body>
@@ -27,7 +27,7 @@
         <div class="swiper-container" data-autoplay="0" data-loop="1" data-speed="500" data-center="0" data-slides-per-view="1" data-add-slides="2">
             <div class="swiper-wrapper clearfix">
                 <div class="swiper-slide active" data-val="0">
-                    <div class="tt-mslide" style="background-image:url(img/mslide/mslide_1.jpg);">
+                    <div class="tt-mslide" style="background-image:url(${slm}/staticfile/img/mslide/mslide_1.jpg);">
                         <div class="container-fluid">
                             <div class="tt-mslide-table">
                                 <div class="tt-mslide-cell">
@@ -49,7 +49,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide" data-val="1">
-                    <div class="tt-mslide" style="background-image:url(img/mslide/mslide_2.jpg);">
+                    <div class="tt-mslide" style="background-image:url(${slm}/staticfile/img/mslide/mslide_2.jpg);">
                         <div class="container-fluid">
                             <div class="tt-mslide-table">
                                 <div class="tt-mslide-cell">
@@ -157,7 +157,7 @@
                         <div class="swiper-slide active" data-val="0"> 
                             <div class="tt-cours">
                                 <a class="tt-cours-img custom-hover" href="#">
-                                    <img class="img-responsive" src="img/cours/cours_1.jpg" height="260" width="270" alt="">
+                                    <img class="img-responsive" src="${slm}/staticfile/img/cours/cours_1.jpg" height="260" width="270" alt="">
                                 </a>
                                 <div class="tt-cours-info">
                                     <div class="tt-cours-cat">Rebeca Adams</div>
@@ -177,7 +177,7 @@
                         <div class="swiper-slide" data-val="1"> 
                             <div class="tt-cours">
                                 <a class="tt-cours-img custom-hover" href="#">
-                                    <img class="img-responsive" src="img/cours/cours_2.jpg" height="260" width="270" alt="">
+                                    <img class="img-responsive" src="${slm}/staticfile/img/cours/cours_2.jpg" height="260" width="270" alt="">
                                 </a>
                                 <div class="tt-cours-info">
                                     <div class="tt-cours-cat">Rebeca Adams</div>
@@ -197,7 +197,7 @@
                         <div class="swiper-slide" data-val="2"> 
                             <div class="tt-cours">
                                 <a class="tt-cours-img custom-hover" href="#">
-                                    <img class="img-responsive" src="img/cours/cours_3.jpg" height="260" width="270" alt="">
+                                    <img class="img-responsive" src="${slm}/staticfile/img/cours/cours_3.jpg" height="260" width="270" alt="">
                                 </a>
                                 <div class="tt-cours-info">
                                     <div class="tt-cours-cat">Rebeca Adams</div>
@@ -217,7 +217,7 @@
                         <div class="swiper-slide" data-val="3"> 
                             <div class="tt-cours">
                                 <a class="tt-cours-img custom-hover" href="#">
-                                    <img class="img-responsive" src="img/cours/cours_4.jpg" height="260" width="270" alt="">
+                                    <img class="img-responsive" src="${slm}/staticfile/img/cours/cours_4.jpg" height="260" width="270" alt="">
                                 </a>
                                 <div class="tt-cours-info">
                                     <div class="tt-cours-cat">Rebeca Adams</div>
@@ -237,7 +237,7 @@
                         <div class="swiper-slide" data-val="4"> 
                             <div class="tt-cours">
                                 <a class="tt-cours-img custom-hover" href="#">
-                                    <img class="img-responsive" src="img/cours/cours_1.jpg" height="260" width="270" alt="">
+                                    <img class="img-responsive" src="${slm}/staticfile/img/cours/cours_1.jpg" height="260" width="270" alt="">
                                 </a>
                                 <div class="tt-cours-info">
                                     <div class="tt-cours-cat">Rebeca Adams</div>
@@ -257,7 +257,7 @@
                         <div class="swiper-slide" data-val="5"> 
                             <div class="tt-cours">
                                 <a class="tt-cours-img custom-hover" href="#">
-                                    <img class="img-responsive" src="img/cours/cours_2.jpg" height="260" width="270" alt="">
+                                    <img class="img-responsive" src="${slm}/staticfile/img/cours/cours_2.jpg" height="260" width="270" alt="">
                                 </a>
                                 <div class="tt-cours-info">
                                     <div class="tt-cours-cat">Rebeca Adams</div>
@@ -288,8 +288,8 @@
             <div class="tt-two-blocks">
                 <div class="container">
                     <div class="empty-space marg-lg-b75 marg-sm-b50 marg-xs-b30"></div>
-                    <img class="tt-two-blocks-img" src="img/two-block/user.png" height="461" width="299" alt="" >
-                    <div class="tt-two-blocks-section background-block" style="background-image:url(img/two-block/bg.jpg);">
+                    <img class="tt-two-blocks-img" src="${slm}/staticfile/img/two-block/user.png" height="461" width="299" alt="" >
+                    <div class="tt-two-blocks-section background-block" style="background-image:url(${slm}/staticfile/img/two-block/bg.jpg);">
                         
                     </div>
                     <div class="row">
@@ -369,7 +369,7 @@
                                     <div class="row">
                                         <div class="col-sm-4">
                                             <a class="tt-commercial-img custom-hover" href="#">
-                                                <img class="img-responsive" src="img/commercial/commercial.jpg" height="166" width="200" alt="">
+                                                <img class="img-responsive" src="${slm}/staticfile/img/commercial/commercial.jpg" height="166" width="200" alt="">
                                             </a>
                                         </div>
                                         <div class="col-sm-8">
@@ -395,7 +395,7 @@
                                     <div class="row">
                                         <div class="col-sm-4">
                                             <a class="tt-commercial-img custom-hover" href="#">
-                                                <img class="img-responsive" src="img/commercial/commercial.jpg" height="166" width="200" alt="">
+                                                <img class="img-responsive" src="${slm}/staticfile/img/commercial/commercial.jpg" height="166" width="200" alt="">
                                             </a>
                                         </div>
                                         <div class="col-sm-8">
@@ -421,7 +421,7 @@
                                     <div class="row">
                                         <div class="col-sm-4">
                                             <a class="tt-commercial-img custom-hover" href="#">
-                                                <img class="img-responsive" src="img/commercial/commercial.jpg" height="166" width="200" alt="">
+                                                <img class="img-responsive" src="${slm}/staticfile/img/commercial/commercial.jpg" height="166" width="200" alt="">
                                             </a>
                                         </div>
                                         <div class="col-sm-8">
@@ -497,28 +497,28 @@
                                 <div class="swiper-slide current active" data-val="0">
                                     <div class="tt-testimonal-slider-nav">
                                         <div class="tt-testimonal-slider-user">
-                                            <img src="img/testimonal/testimonal-user-1.jpg" alt="">
+                                            <img src="${slm}/staticfile/img/testimonal/testimonal-user-1.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide" data-val="1">
                                     <div class="tt-testimonal-slider-nav">
                                         <div class="tt-testimonal-slider-user">
-                                            <img src="img/testimonal/testimonal-user-2.jpg" alt="">
+                                            <img src="${slm}/staticfile/img/testimonal/testimonal-user-2.jpg" alt="">
                                         </div>
                                     </div>                                                               
                                 </div>
                                 <div class="swiper-slide" data-val="2">
                                     <div class="tt-testimonal-slider-nav">
                                         <div class="tt-testimonal-slider-user">
-                                            <img src="img/testimonal/testimonal-user-3.jpg" alt="">
+                                            <img src="${slm}/staticfile/img/testimonal/testimonal-user-3.jpg" alt="">
                                         </div>
                                     </div>                                                               
                                 </div>
                                 <div class="swiper-slide" data-val="3">
                                     <div class="tt-testimonal-slider-nav">
                                         <div class="tt-testimonal-slider-user">
-                                            <img src="img/testimonal/testimonal-user-1.jpg" alt="">
+                                            <img src="${slm}/staticfile/img/testimonal/testimonal-user-1.jpg" alt="">
                                         </div>
                                     </div>                                                               
                                 </div>                                                                  
@@ -548,7 +548,7 @@
                         <div class="tt-teacher">
                             <div class="tt-teacher-img">
                                 <div class="tt-teacher-pic">
-                                    <img class="img-responsive" src="img/teacher/teacher_1.jpg" height="170" width="249" alt="">
+                                    <img class="img-responsive" src="${slm}/staticfile/img/teacher/teacher_1.jpg" height="170" width="249" alt="">
                                     <ul class="tt-teacher-social">
                                         <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -571,7 +571,7 @@
                         <div class="tt-teacher">
                             <div class="tt-teacher-img">
                                 <div class="tt-teacher-pic">
-                                    <img class="img-responsive" src="img/teacher/teacher_2.jpg" height="170" width="249" alt="">
+                                    <img class="img-responsive" src="${slm}/staticfile/img/teacher/teacher_2.jpg" height="170" width="249" alt="">
                                     <ul class="tt-teacher-social">
                                         <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -595,7 +595,7 @@
                         <div class="tt-teacher">
                             <div class="tt-teacher-img">
                                 <div class="tt-teacher-pic">
-                                    <img class="img-responsive" src="img/teacher/teacher_3.jpg" height="170" width="249" alt="">
+                                    <img class="img-responsive" src="${slm}/staticfile/img/teacher/teacher_3.jpg" height="170" width="249" alt="">
                                     <ul class="tt-teacher-social">
                                         <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -618,7 +618,7 @@
                         <div class="tt-teacher">
                             <div class="tt-teacher-img">
                                 <div class="tt-teacher-pic">
-                                    <img class="img-responsive" src="img/teacher/teacher_4.jpg" height="170" width="249" alt="">
+                                    <img class="img-responsive" src="${slm}/staticfile/img/teacher/teacher_4.jpg" height="170" width="249" alt="">
                                     <ul class="tt-teacher-social">
                                         <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -677,7 +677,7 @@
             </div>
         </div>
 
-        <div class="background-block tt-overlay" style="background-image:url(img/bg/bg_1.jpg);">
+        <div class="background-block tt-overlay" style="background-image:url(${slm}/staticfile/img/bg/bg_1.jpg);">
             <div class="container">
                 <div class="empty-space marg-lg-b90 marg-sm-b50 marg-xs-b30"></div>
 
@@ -694,7 +694,7 @@
                         <div class="tt-event clearfix">
                             <div class="tt-event-left">
                                 <a class="tt-event-img custom-hover" href="#">
-                                    <img class="img-responsive" src="img/event/event_1.jpg" height="168" width="170" alt="">
+                                    <img class="img-responsive" src="${slm}/staticfile/img/event/event_1.jpg" height="168" width="170" alt="">
                                 </a>
                                 <div class="tt-event-date">
                                     05 Aug 2016
@@ -718,7 +718,7 @@
                         <div class="tt-event clearfix">
                             <div class="tt-event-left">
                                 <a class="tt-event-img custom-hover" href="#">
-                                    <img class="img-responsive" src="img/event/event_1.jpg" height="168" width="170" alt="">
+                                    <img class="img-responsive" src="${slm}/staticfile/img/event/event_1.jpg" height="168" width="170" alt="">
                                 </a>
                                 <div class="tt-event-date">
                                     05 Aug 2016
@@ -759,7 +759,7 @@
                     <div class="tt-news">
                         <div class="tt-news-top">
                             <a class="tt-news-img custom-hover" href="">
-                                <img class="img-responsive" src="img/news/news_1.jpg" height="204" width="370" alt="">
+                                <img class="img-responsive" src="${slm}/staticfile/img/news/news_1.jpg" height="204" width="370" alt="">
                             </a>
                             <div class="tt-news-date">
                                 <span>05</span>
@@ -781,7 +781,7 @@
                     <div class="tt-news">
                         <div class="tt-news-top">
                             <a class="tt-news-img custom-hover" href="">
-                                <img class="img-responsive" src="img/news/news_2.jpg" height="204" width="370" alt="">
+                                <img class="img-responsive" src="${slm}/staticfile/img/news/news_2.jpg" height="204" width="370" alt="">
                             </a>
                             <div class="tt-news-date">
                                 <span>05</span>
@@ -803,7 +803,7 @@
                     <div class="tt-news">
                         <div class="tt-news-top">
                             <a class="tt-news-img custom-hover" href="">
-                                <img class="img-responsive" src="img/news/news_3.jpg" height="204" width="370" alt="">
+                                <img class="img-responsive" src="${slm}/staticfile/img/news/news_3.jpg" height="204" width="370" alt="">
                             </a>
                             <div class="tt-news-date">
                                 <span>05</span>
@@ -828,12 +828,14 @@
 
 
     <!-- FOOTER -->
-    <%@ include file="foot.jsp"%>
-    <script src="js/jquery-1.12.1.min.js"></script>
-    <script src="bootstrap/3.3.6/js/bootstrap.min.js" ></script>
-    <script src="js/idangerous.swiper.min.js"></script>
-    <script src="js/jquery.countTo.js"></script>
-    <script src="js/jquery.viewportchecker.min.js"></script>
-    <script src="js/global.js"></script>
+
+    <%@include file="foot.jsp"%>
+    <script src="${slm}/staticfile/js/jquery-1.12.1.min.js"></script>
+    <script src="${slm}/staticfile/bootstrap/3.3.6/js/bootstrap.min.js" ></script>
+    <script src="${slm}/staticfile/js/idangerous.swiper.min.js"></script>
+    <script src="${slm}/staticfile/js/jquery.countTo.js"></script>
+    <script src="${slm}/staticfile/js/jquery.viewportchecker.min.js"></script>
+    <script src="${slm}/staticfile/js/global.js"></script>
+
 </body>
 </html>

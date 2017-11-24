@@ -2,7 +2,9 @@
 <%@ page trimDirectiveWhitespaces="true" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
 		<footer class="tt-footer">
+
         <div class="container">
             <div class="tt-banner-2">
                 <div class="row">
@@ -35,7 +37,9 @@
             <div class="row">
                 <div class="col-sm-6 col-md-3">
                     <div class="tt-footer-logo">
-                        <img class="img-responsive" src="img/footer/f_logo.png" height="55" width="258" alt="">
+
+                        <img class="img-responsive" src="${slm}/staticfile/img/footer/f_logo.png" height="55" width="258" alt="">
+
                     </div>
                     <div class="empty-space marg-lg-b25"></div>
 

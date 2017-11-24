@@ -2,6 +2,10 @@
 <%@ page trimDirectiveWhitespaces="true" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
+<%@include file="base.jsp"%>
+<c:set var="slm" value="<%=request.getContextPath()%>"/>
+
 	<!-- LOADER -->
     <div id="loader-wrapper">
         <div id="loader-container">
@@ -13,7 +17,9 @@
     <header class="tt-header">
         <div class="container">
             <div class="top-inner">
-                <a class="logo" href="index.html"><img src="img/header/logo.png" height="60" width="258" alt=""></a>
+
+                <a class="logo" href="index.html"><img src="${slm}/staticfile/img/header/logo.png" height="60" width="258" alt=""></a>
+
             </div>
             <button class="cmn-toggle-switch"><span></span></button>
             <div class="toggle-block">

@@ -243,10 +243,10 @@ img.tp-slider-alternative-image{width:100%;height:auto;}
 -	DOTTED OVERLAYS	-
 *********************************/
 .tp-dottedoverlay{background-repeat:repeat;width:100%;height:100%;position:absolute;top:0px;left:0px;z-index:3}
-.tp-dottedoverlay.twoxtwo{background:url(../img/revolution/gridtile.png)}
-.tp-dottedoverlay.twoxtwowhite{background:url(../img/revolution/gridtile_white.png)}
-.tp-dottedoverlay.threexthree{background:url(../img/revolution/gridtile_3x3.png)}
-.tp-dottedoverlay.threexthreewhite{background:url(../img/revolution/gridtile_3x3_white.png)}
+.tp-dottedoverlay.twoxtwo{background:url(../../WEB-INF/page/img/revolution/gridtile.png)}
+.tp-dottedoverlay.twoxtwowhite{background:url(../../WEB-INF/page/img/revolution/gridtile_white.png)}
+.tp-dottedoverlay.threexthree{background:url(../../WEB-INF/page/img/revolution/gridtile_3x3.png)}
+.tp-dottedoverlay.threexthreewhite{background:url(../../WEB-INF/page/img/revolution/gridtile_3x3_white.png)}
 
 /******************************
 -	SHADOWS		-
@@ -364,8 +364,8 @@ img.tp-slider-alternative-image{width:100%;height:auto;}
 .tp-caption img{background:transparent;-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)";filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);zoom:1;}
 
 /*  CAPTION SLIDELINK   **/
-.caption.slidelink a div,.tp-caption.slidelink a div{width:3000px;height:1500px;background:url(../img/revolution/coloredbg.png) repeat}
-.tp-caption.slidelink a span{background:url(../img/revolution/coloredbg.png) repeat}
+.caption.slidelink a div,.tp-caption.slidelink a div{width:3000px;height:1500px;background:url(../../WEB-INF/page/img/revolution/coloredbg.png) repeat}
+.tp-caption.slidelink a span{background:url(../../WEB-INF/page/img/revolution/coloredbg.png) repeat}
 .tp-shape{width:100%;height:100%;}
 
 /*********************************************
@@ -385,9 +385,9 @@ img.tp-slider-alternative-image{width:100%;height:auto;}
 -	LOADER FORMS	-
 ********************************/
 .tp-loader{top:50%;left:50%;z-index:10000;position:absolute;}
-.tp-loader.spinner0{width:40px;height:40px;background-color:#fff;background:url(../img/revolution/loader.gif) no-repeat center center;box-shadow:0px 0px 20px 0px rgba(0,0,0,0.15);-webkit-box-shadow:0px 0px 20px 0px rgba(0,0,0,0.15);margin-top:-20px;margin-left:-20px;-webkit-animation:tp-rotateplane 1.2s infinite ease-in-out;animation:tp-rotateplane 1.2s infinite ease-in-out;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.tp-loader.spinner0{width:40px;height:40px;background-color:#fff;background:url(../../WEB-INF/page/img/revolution/loader.gif) no-repeat center center;box-shadow:0px 0px 20px 0px rgba(0,0,0,0.15);-webkit-box-shadow:0px 0px 20px 0px rgba(0,0,0,0.15);margin-top:-20px;margin-left:-20px;-webkit-animation:tp-rotateplane 1.2s infinite ease-in-out;animation:tp-rotateplane 1.2s infinite ease-in-out;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
 .tp-loader.spinner1{width:40px;height:40px;background-color:#fff;box-shadow:0px 0px 20px 0px rgba(0,0,0,0.15);-webkit-box-shadow:0px 0px 20px 0px rgba(0,0,0,0.15);margin-top:-20px;margin-left:-20px;-webkit-animation:tp-rotateplane 1.2s infinite ease-in-out;animation:tp-rotateplane 1.2s infinite ease-in-out;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
-.tp-loader.spinner5{background:url(../img/revolution/loader.gif) no-repeat 10px 10px;background-color:#fff;margin:-22px -22px;width:44px;height:44px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.tp-loader.spinner5{background:url(../../WEB-INF/page/img/revolution/loader.gif) no-repeat 10px 10px;background-color:#fff;margin:-22px -22px;width:44px;height:44px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
 @-webkit-keyframes tp-rotateplane{
 	0%{-webkit-transform:perspective(120px)}
 	50%{-webkit-transform:perspective(120px) rotateY(180deg)}
