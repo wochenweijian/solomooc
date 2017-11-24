@@ -1367,7 +1367,7 @@ a:hover, a:focus {
 	left: 0;
 	width: 28px;
 	height: 23px;
-	background: url(../img/list/list.png) no-repeat;
+	background: url(../../WEB-INF/page/img/list/list.png) no-repeat;
 }
 @media (max-width:767px) {
 	.tt-custom-list li {
